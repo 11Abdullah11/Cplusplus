@@ -55,18 +55,14 @@ int main(){
         So, we can now continue with the program:
     */
   
-    int max; // to store the maximum out of the two
     
     // conditional statement 
-    if(num1 > num2){   
-        max = num1;
-    }
-    else{
-        max = num2;
-    }
-    
-    cout << "The maximum no. is: " << max << "\n";
-  
+  if (num1 > num2){
+      cout <<"The maximum no. is : " << num1 << endl;
+  }
+  else{
+      cout <<"The maximum no. is : " << num2 << endl;
+  }
     /*
         Note that the following piece of code can be replaced with lines 56 to 61 
         without affecting the working of the program (using Note **):
